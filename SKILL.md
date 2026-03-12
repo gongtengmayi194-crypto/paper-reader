@@ -139,7 +139,7 @@ Show the directory tree:
 
 ## Dependencies
 ```bash
-pip install PyMuPDF>=1.23.0 pdfplumber>=0.10.0
+pip install "PyMuPDF>=1.23.0" "Pillow>=10.0.0"
 ```
 
 ## Resources
@@ -147,6 +147,6 @@ pip install PyMuPDF>=1.23.0 pdfplumber>=0.10.0
   - `references/report-template-paper-deep.md` — 论文深度解读（逐层张量追踪）
   - `references/report-template-code-module.md` — 单个代码模块解读
   - `references/report-template-quiz.md` — 理解度测试
-- **旧报告模板（向后兼容，保留）**: `references/report-template-quick.md`, `references/report-template-core.md`, `references/report-template-full.md`
+- **深度档位说明**: `quick/core/full` 仅作为生成强度参数（控制讲解深度与出题数量），不再对应独立旧模板文件
 - **标注风格指南**: `references/annotation-guide.md` (ALWAYS read this)
 - **脚本**: `scripts/extract_figures.py`, `scripts/extract_formulas.py`, `scripts/pdf_to_sections.py`, `scripts/parse_repo.py`
